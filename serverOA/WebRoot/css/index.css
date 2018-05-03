@@ -1,0 +1,222 @@
+.b {
+    width: 700px;
+    height: 700px;
+    border: 0.5px solid;
+}
+.n{
+    width:700px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.s{
+    width:700px;
+    height:200px;
+}
+.sn{
+    width:700px;
+    height:40px;
+    /*border:0.5px solid;*/
+}
+.ss{
+    width:700px;
+    height:160px;
+}
+.ss-n{
+    width:700px;
+    height:15%;
+}
+.ss-s{
+    width:700px;
+    height:85%;
+    position:relative;
+}
+.ss-s-div1{
+    width:85%;
+    height:60%;
+    display:inline-block;
+    position:absolute; left:0; bottom:0;
+}
+.ss-s-div2{
+    width:14%;
+    height:100%;
+    display:inline-block;
+    margin-right:0;
+    margin-bottom: 0;
+    position:absolute; right:0;
+}
+
+.fl {
+    float: left;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml10 {
+    margin-left: 10px;
+    float: right;
+}
+
+
+.msg {
+    overflow: hidden;
+}
+
+.msg-center {
+    padding: 10px 20px;
+/*// text-align: right;*/
+    width:700px;
+    float:right;
+}
+
+.msg-center .title {
+    overflow: hidden;
+    clear: both;
+}
+
+.msg-center .title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.msg-center .title p {
+    margin-top: 0;
+    margin-left: 5px;
+    width: calc(100% - 50px);
+}
+
+.msg-center .title p b {
+    font-size: 16px;
+}
+
+.menu-ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    text-align:center
+}
+
+.menu-ul-li {
+    float:left;
+    width:50%;
+    line-height:36px;
+    padding:0px;
+    background-color:#f5f5f5;
+}
+.item-selected {
+    border-bottom: 2px solid #fd3904;
+}
+.btn{
+    width:auto;
+    height: auto;
+    background:green;
+    color:#fff;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+    float: left;
+    margin-left: 5px;
+}
+.wl_faces_main-ul {
+    margin: 12px 28px;
+    overflow: hidden;
+    border-top: 1px #CCC solid;
+    border-left: 1px #CCC solid; width:360px;
+}
+.wl_faces_main-ul-li {
+    float: left;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    height: 22px; width: 26px;
+    margin: -1px 0 0 -1px;
+    padding: 4px 2px;
+    text-align: center;
+    list-style:none;
+}
+.wl_faces_main ul-li-img {
+    width: 22px;
+    height: 22px;
+}
+.wl_faces_content-title-ul-li-title_name {
+    background: url('img/wlf_title_btn.jpg') no-repeat 0 0;
+    width: 82px;
+    height: 30px;
+    bottom: 0; _bottom:-2px;
+    left: 15px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+    color: #333;
+}
+.wl_faces_content-title-ul-li-wl_faces_close {
+    right: 8px;
+    top: 15px;
+}
+.wl_faces_content-title-ul-li-wl_faces_close-span {
+    background: url('/img/icon.png') repeat-x 0 0;
+    cursor: pointer;display: block;
+    width: 15px;
+    height: 15px;
+}
+.wl_faces_content-title {
+    background: url('img/wlf_title_bg.jpg') repeat-x 0 0;
+    height: 40px;
+    position: relative;
+}
+.wl_faces_content {
+    background: #fff;
+    border: 1px #ccc solid;
+    width: 400px;
+    height: 216px;
+    margin: 3px 4px;
+    position:absolute;/*  top:800px;*/
+}
+.wl_faces_box {
+    background: url('img/wlf_bg.png') repeat 0 0;
+    /*position: relative;*/
+    width: 400px;
+    height: 225px;
+    /*bottom: 22px;*/
+    bottom: 45px;
+    left: -50px;
+    display: none;
+    position:absolute;
+}
+.ctb01{
+    background-position: 0 -90px;
+    margin-left: 18px;
+    _margin-left: 8px;
+}
+.div0-left{
+    float:left;clear:both;
+}
+.div0-right{
+    float:right;clear:both;
+}
+/*.div2-left{
+    padding-left: 10px;padding-right:10px;margin-left:50px;margin-right:200px;margin-top: -5px;border-radius:10%;background-color:blue;
+}*/
+/*头像图片的样式class写到这里不起作用*/
+.image-left{
+    overflow: hidden;
+    padding: 1px 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+}
+.p-left{
+    margin-left: 15px;
+}
+/*.div2-right{
+    float: right;clear:both;padding-left: 10px;padding-right:10px;margin-left:200px;margin-right:50px;margin-top: -5px;border-radius:10%;background-color:blue;
+}*/
+.image-right{
+    overflow: hidden;
+    padding: 1px 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

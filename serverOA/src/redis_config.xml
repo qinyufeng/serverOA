@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+	<!-- <server name="commonCaches">
+		<point>
+			<host>10.113.158.87</host>
+			<port>1637</port>
+			<password>scydxwtec</password>
+		</point>
+	</server> -->
+	<server name="commonCaches">
+		<point>
+			<host>127.0.0.1</host>
+			<port>6379</port>
+			<password>hyk123</password>
+		</point>
+	</server>
+</servers>
